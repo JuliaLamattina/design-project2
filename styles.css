@@ -1,0 +1,532 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    background-color: rgb(20, 20, 65);
+}
+h1 {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 200px;
+    left: 35%;
+    background-color: transparent;
+}
+
+.stadium {
+    width: 98%;
+    height: 250px;
+    border: 3px solid white;
+}
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;
+}
+.div2 {
+    padding: 15px;
+    padding-right: 50%;
+    font-size: x-large;
+}
+.div3 {
+    padding: 15px;
+    padding-right: 50%;
+}
+.about {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;  
+    font-size: large;
+    padding-bottom: 30px;
+    text-indent: 30px;
+    padding-top: 13px;
+
+}
+.quote {
+    padding: 20px;
+    padding-right: 15px;
+    left: 50%;
+    bottom: 285px;
+    position: relative;
+    width: 50%;
+    font-size: xxx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+.page1 {
+    border: 3px solid white;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    bottom: 260px;
+}
+.knee {
+    border: 3px solid white;
+}
+.hand {
+    border: 3px solid white;
+}
+.ankle {
+    border: 3px solid white;
+}
+.shoulder {
+    border: 3px solid white;
+}
+.quote2 {
+    position: relative;
+    left: 20%;
+}
+.quote3 {
+    position: relative;
+    left: 45%;
+}
+.quote4 {
+    position: relative;
+    left: 75%;
+}
+.first {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 140px;
+    background-color: transparent;
+    font-size: large;
+}
+.second {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 140px;
+    background-color: transparent;
+    font-size: large;
+}
+.third {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 140px;
+    background-color: transparent;
+    font-size: large;
+}
+.fourth {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    position: relative;
+    bottom: 320px;
+    left: 140px;
+    background-color: transparent;
+    font-size: large;
+}
+.understanding {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    background-color: transparent;
+    position: relative;
+    font-size: xxx-large;
+}
+.p1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: none;
+    padding: 10px;  
+    font-size: x-large;
+    padding-bottom: 50px;
+    background-color: transparent;
+    position: relative;
+    width: 1000px;
+    
+
+}
+.info1 {
+    padding: 15px;
+    padding-right: 50%;
+    position: relative;
+    background-color: transparent;
+    left: 39%;
+    bottom: 50px;
+}
+.div5 {
+    padding: 15px;
+    padding-right: 63%;
+    position: relative;
+    background-color: transparent;
+    bottom: 590px;
+    padding-left: 17px;
+}
+.overview {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-size: x-large;
+    border: 3px solid white;
+    border-top: none;
+    padding: 10px; 
+    padding-bottom: 700px;
+    background-color: transparent;
+    position: relative
+}
+.title2{
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 20px;
+    left: 40%;
+    background-color: transparent;
+    position: relative;
+}
+.overview1 {
+    border-bottom: none;
+    font-size: xx-large;
+}
+ol {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    position: relative;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    bottom: 670px;
+    padding-left: 100px;
+}
+li {
+    color: white;
+    font-size: x-large;
+}
+footer {
+    color: white;
+    font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.date {
+    background-color: rgb(7, 3, 52);
+    padding: 20px;
+}
+.heal {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    position: relative;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+    padding-top: none;
+}
+.healing {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;  
+    font-size: x-large;
+    
+}
+.rice {
+    padding: 20px;
+    padding-right: 5px;
+    left: 60%;
+    bottom: 670px;
+    position: relative;
+    width: 39%;
+    font-size: xxx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    background-color:rgb(124, 158, 209);
+}
+.div11 {
+    padding: 15px;
+    padding-right: 41%;
+    position: relative;
+    left: 40%;
+}
+.RICE {
+    background-color:rgb(124, 158, 209);
+}
+.Strength {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    top: 20px;
+    left: 41%;
+    background-color: transparent;
+    position: relative;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+    padding-top: none;
+}
+.Preventing {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: transparent;
+    position: relative;
+    font-size: xxx-large;
+    padding-bottom: 10px;
+    padding-top: none;  
+}
+.div7 {
+    padding: 15px;
+    padding-right: 52%;
+    position: relative;
+    left: 50%;
+   
+}
+.prevent {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;  
+    font-size: x-large;
+}
+.div8 {
+    padding: 15px;
+    padding-right: 50%;
+}
+.safety {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 3px solid white;
+    padding: 10px;  
+    font-size: x-large;
+}
+.div9 {
+    position: relative;
+    bottom: 175px;
+
+}
+.form {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    padding: 10px;  
+    font-size: xx-large;
+    text-align: center;
+    border: none;
+}
+table {
+    background-color: rgb(177, 153, 243);
+    width: 40em;
+    height: 40em;
+    border-radius: 5px;
+    margin: 25px auto;
+    border: 1px solid white;
+}
+.div-table {
+    position: relative;
+    bottom: 640px;
+    right: 30%;
+    background-color: transparent;
+    
+}
+thead {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font: bold;
+    background-color: rgb(149, 158, 235);
+    text-align: center;
+    font-size: xx-large;
+
+}
+tbody {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: large;
+}
+.div6 {
+    padding: 15px;
+    padding-right: 41%;
+    position: relative;
+    left: 10px;
+}
+.title-form {
+    font-family: bebas system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(253, 253, 253);
+    position: absolute;
+    top: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    padding: 10px;
+    position: relative;
+    left: 35%;
+    width: 600px;
+    text-align: center;
+}
+.injury-types {
+    position: relative;
+    left: 40%;
+    bottom: 1180px;
+    width: 500px;
+    height: 365px;
+}
+.injured-points {
+    position: relative;
+    left: 45%;
+    bottom: 1180px;
+    width: 400px;
+    height: 385px;
+}
+.icing {
+    position: relative;
+    bottom: 660px;
+    left: 1045px;
+    width: 670px;
+    height: 370px;
+}
+.back-button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    bottom: 1100px;
+    width: 500px;
+    left: 28%;
+}
+.back-button2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    bottom: 610px;
+    width: 500px;
+    left: 28%;
+}
+.back-button3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    width: 500px;
+    left: 58%;
+    position: relative;
+    top: -10px;
+}
+.back-button4 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    top: -230px;
+    width: 500px;
+    left: 38%;
+}
+form {
+    position: relative;
+    top: 100px;
+    left: 40px;
+    color: white;
+    background-color: rgb(99, 118, 201);
+    padding: 10px;
+    width: 95%;
+    font-size: xx-large;
+}
+label {
+    background-color: transparent;
+}
+.most-helpful {
+    background-color: transparent;
+}
+input {
+    background-color: transparent;
+    color: rgb(16, 20, 82);
+    font-size: large;
+}
+textarea {
+    background-color: rgb(11, 6, 56);
+    color: white;
+}
+.dumbbells {
+    position: relative;
+    left: 75%;
+    width: 450px;
+    height: 350px;
+    bottom: 352px;
+}
+.runner {
+    position: relative;
+    left: 80%;
+    width: 270px;
+    height: 350px;
+    bottom: 352px;
+}
+.back-button5 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    top: 115px;
+    width: 500px;
+    left: 38%;
+}
+.preventionimg {
+    position: relative;
+    height: 295px;
+    width: 500px;
+    left: 60%; 
+    bottom: 665px;
+}
+.warmup {
+    position: relative;
+    height: 255px;
+    width: 300px;
+    right: 340px;
+    bottom: 330px;
+
+}
+.cooldown {
+    position: relative;
+    height: 255px;
+    width: 300px; 
+    bottom: 330px;
+    right: 430px;
+}
+.div12 {
+    padding-bottom: 150px;
+}
+.div13 {
+    padding-bottom: 150px;
+}
+.next1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    bottom: 1168px;
+    width: 300px;
+    left: 58%;
+}
+.next2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    bottom: 678px;
+    width: 300px;
+    left: 58%;
+}
+.next3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 38, 95);
+    background-color: rgb(123, 157, 231);
+    padding: 10px;
+    position: relative;
+    bottom: 77px;
+    width: 300px;
+    left: 89%;
+}
+
+
